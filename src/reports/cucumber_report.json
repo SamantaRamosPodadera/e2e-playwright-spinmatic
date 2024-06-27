@@ -1,0 +1,53 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "open-a-url;open-bootcampqa-homepage",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Open BootcampQA homepage",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15428450566
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I navigate to main page",
+            "match": {
+              "location": "src/steps/visit_page_steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7786215893
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1555859373
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "open-a-url",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Open a URL",
+    "tags": [],
+    "uri": "src/features/visit_page.feature"
+  }
+]
