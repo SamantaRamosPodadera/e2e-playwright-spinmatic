@@ -3,7 +3,7 @@
 > Typescript and Playwright with Cucumber e2e testing project.
 
 ### 💻 Description
-E2e tests for https://bootcamp-qa.com
+E2e tests for https://spinmatic.com/
 
 Covered Features:
 - Visit Home Page
@@ -38,5 +38,5 @@ npx playwright codegen playwright.dev
 
 
 ## Autora
-Reyes Cuesta: https://www.linkedin.com/in/reyescuesta
+Samanta Ramos: https://www.linkedin.com/in/samantaramospodadera
 

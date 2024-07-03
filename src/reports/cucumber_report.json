@@ -4,30 +4,70 @@
     "elements": [
       {
         "description": "",
-        "id": "open-a-url;open-bootcampqa-homepage",
+        "id": "open-homepage;play-plinky-plinko-game",
         "keyword": "Scenario",
-        "line": 3,
-        "name": "Open BootcampQA homepage",
+        "line": 5,
+        "name": "Play plinky Plinko game",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 15428450566
+              "duration": 2319881150
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
-            "line": 4,
-            "name": "I navigate to main page",
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to spinmatic homepage",
             "match": {
-              "location": "src/steps/visit_page_steps.ts:4"
+              "location": "src/steps/visit_page_steps.ts:16"
             },
             "result": {
               "status": "passed",
-              "duration": 7786215893
+              "duration": 1501709111
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I select games menu",
+            "match": {
+              "location": "src/steps/visit_page_steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14557631459
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I open plinky plinko game",
+            "match": {
+              "location": "src/steps/visit_page_steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 801700455
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I can play plinky plinko game",
+            "match": {
+              "location": "src/steps/visit_page_steps.ts:28"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 20005090708,
+              "error_message": "Error: function timed out, ensure the promise resolves within 20000 milliseconds\n    at Timeout.<anonymous> (/Users/reyescuesta/Documents/GitHubSami/e2e-playwright/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
             }
           },
           {
@@ -35,7 +75,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1555859373
+              "duration": 3174868514
             }
           }
         ],
@@ -43,10 +83,10 @@
         "type": "scenario"
       }
     ],
-    "id": "open-a-url",
+    "id": "open-homepage",
     "line": 1,
     "keyword": "Feature",
-    "name": "Open a URL",
+    "name": "Open Homepage",
     "tags": [],
     "uri": "src/features/visit_page.feature"
   }
