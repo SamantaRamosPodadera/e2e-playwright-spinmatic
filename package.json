@@ -1,7 +1,7 @@
 {
   "name": "playwright",
   "version": "1.0.0",
-  "description": "",
+  "description": "> Typescript and Playwright with Cucumber e2e testing project.",
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js --require-module ts-node/register --config cucumber.js",
@@ -23,6 +23,6 @@
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "cross-env": "^7.0.3"
-  }
+  },
+  "devDependencies": {}
 }
-
