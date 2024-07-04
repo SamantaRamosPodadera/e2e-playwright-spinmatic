@@ -4,96 +4,95 @@
     "elements": [
       {
         "description": "",
-        "id": "contact;fill-out-contact",
+        "id": "contact;fill-out-contact-with-empty-name",
         "keyword": "Scenario",
-        "line": 4,
-        "name": "fill out contact",
+        "line": 3,
+        "name": "fill out contact with empty name",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2940972275
+              "duration": 1875381743
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 4,
             "name": "I navigate to spinmatic homepage",
             "match": {
-              "location": "src/steps/visit_page_steps.ts:16"
+              "location": "src/steps/contact _page_step.ts:5"
             },
             "result": {
               "status": "passed",
-              "duration": 2219414834
+              "duration": 2215187146
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I select Contact menu",
+            "match": {
+              "location": "src/steps/contact _page_step.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1539786352
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "I select Contact menu",
+            "name": "I fill out name with \"\"",
             "match": {
-              "location": "src/steps/contact _page_step.ts:19"
+              "location": "src/steps/contact _page_step.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 1854894098
+              "duration": 1121511978
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "I open Contact",
+            "name": "I fill out email with \"samanta@gmail.com\"",
             "match": {
-              "location": "src/steps/contact _page_step.ts:16"
+              "location": "src/steps/contact _page_step.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 1103631652
+              "duration": 644233774
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I press send mensage",
+            "match": {
+              "location": "src/steps/contact _page_step.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 477734119
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
-            "name": "I can fill out Contact",
-            "match": {
-              "location": "src/steps/contact _page_step.ts:30"
-            },
-            "result": {
-              "status": "failed",
-              "duration": 20004307938,
-              "error_message": "Error: function timed out, ensure the promise resolves within 20000 milliseconds\n    at Timeout.<anonymous> (/Users/reyescuesta/Documents/GitHubSami/e2e-playwright/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
             "line": 9,
-            "name": "I can leave the name field blank",
+            "name": "the input name is mark as invalid",
             "match": {
-              "location": "src/steps/contact _page_step.ts:23"
+              "location": "src/steps/contact _page_step.ts:27"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "I can see message \"Please fill in this field\"",
-            "match": {
-              "location": "src/steps/contact _page_step.ts:36"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 84880843
             }
           },
           {
@@ -101,7 +100,112 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 6180557476
+              "duration": 1688287185
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "contact;email-invalid-format",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "email invalid format",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1926386994
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I navigate to spinmatic homepage",
+            "match": {
+              "location": "src/steps/contact _page_step.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2159931895
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I select Contact menu",
+            "match": {
+              "location": "src/steps/contact _page_step.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1517685005
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I fill out name with \"Samanta\"",
+            "match": {
+              "location": "src/steps/contact _page_step.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 999761418
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I fill out email with \"FDSghjksASjjjDDDJJK\"",
+            "match": {
+              "location": "src/steps/contact _page_step.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 674806779
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I press send mensage",
+            "match": {
+              "location": "src/steps/contact _page_step.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 223396899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the input email is mark as invalid",
+            "match": {
+              "location": "src/steps/contact _page_step.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 269049628
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1802685960
             }
           }
         ],
@@ -115,95 +219,5 @@
     "name": "Contact",
     "tags": [],
     "uri": "src/features/contact_page.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
-        "id": "open-homepage;play-plinky-plinko-game",
-        "keyword": "Scenario",
-        "line": 5,
-        "name": "Play plinky Plinko game",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 2880567338
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 6,
-            "name": "I navigate to spinmatic homepage",
-            "match": {
-              "location": "src/steps/visit_page_steps.ts:16"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2133262989
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "I select games menu",
-            "match": {
-              "location": "src/steps/visit_page_steps.ts:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2332886925
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "I open plinky plinko game",
-            "match": {
-              "location": "src/steps/visit_page_steps.ts:24"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1556309059
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "I can play plinky plinko game",
-            "match": {
-              "location": "src/steps/visit_page_steps.ts:28"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 18921544406
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 6588663281
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      }
-    ],
-    "id": "open-homepage",
-    "line": 1,
-    "keyword": "Feature",
-    "name": "Open Homepage",
-    "tags": [],
-    "uri": "src/features/visit_page.feature"
   }
 ]
