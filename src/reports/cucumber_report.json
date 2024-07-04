@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1875381743
+              "duration": 2276204446
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2215187146
+              "duration": 2026178644
             }
           },
           {
@@ -39,8 +39,9 @@
               "location": "src/steps/contact _page_step.ts:9"
             },
             "result": {
-              "status": "passed",
-              "duration": 1539786352
+              "status": "failed",
+              "duration": 5003299643,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/Users/reyescuesta/Documents/GitHubSami/e2e-playwright/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
             }
           },
           {
@@ -52,8 +53,8 @@
               "location": "src/steps/contact _page_step.ts:18"
             },
             "result": {
-              "status": "passed",
-              "duration": 1121511978
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -65,8 +66,8 @@
               "location": "src/steps/contact _page_step.ts:13"
             },
             "result": {
-              "status": "passed",
-              "duration": 644233774
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -78,8 +79,8 @@
               "location": "src/steps/contact _page_step.ts:23"
             },
             "result": {
-              "status": "passed",
-              "duration": 477734119
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -91,8 +92,8 @@
               "location": "src/steps/contact _page_step.ts:27"
             },
             "result": {
-              "status": "passed",
-              "duration": 84880843
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -100,7 +101,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1688287185
+              "duration": 994333383
             }
           }
         ],
@@ -119,7 +120,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1926386994
+              "duration": 2074235541
             }
           },
           {
@@ -132,7 +133,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2159931895
+              "duration": 2025528150
             }
           },
           {
@@ -144,8 +145,9 @@
               "location": "src/steps/contact _page_step.ts:9"
             },
             "result": {
-              "status": "passed",
-              "duration": 1517685005
+              "status": "failed",
+              "duration": 5040541917,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/Users/reyescuesta/Documents/GitHubSami/e2e-playwright/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
             }
           },
           {
@@ -157,8 +159,8 @@
               "location": "src/steps/contact _page_step.ts:18"
             },
             "result": {
-              "status": "passed",
-              "duration": 999761418
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -170,8 +172,8 @@
               "location": "src/steps/contact _page_step.ts:13"
             },
             "result": {
-              "status": "passed",
-              "duration": 674806779
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -183,8 +185,8 @@
               "location": "src/steps/contact _page_step.ts:23"
             },
             "result": {
-              "status": "passed",
-              "duration": 223396899
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -196,8 +198,8 @@
               "location": "src/steps/contact _page_step.ts:32"
             },
             "result": {
-              "status": "passed",
-              "duration": 269049628
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -205,7 +207,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1802685960
+              "duration": 1063319462
             }
           }
         ],
@@ -219,5 +221,189 @@
     "name": "Contact",
     "tags": [],
     "uri": "src/features/contact_page.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "game;enter-game",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "enter Game",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2092633593
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to spinmatic homepage",
+            "match": {
+              "location": "src/steps/contact _page_step.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1832495736
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I select Game menu",
+            "match": {
+              "location": "src/steps/game_page.ts:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5005868596,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/Users/reyescuesta/Documents/GitHubSami/e2e-playwright/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see the title Game",
+            "match": {
+              "location": "src/steps/game_page.ts:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1335032772
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "game;play-game",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "play game",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2042667312
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I navigate to spinmatic homepage",
+            "match": {
+              "location": "src/steps/contact _page_step.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1947657697
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I select Game menu",
+            "match": {
+              "location": "src/steps/game_page.ts:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5003813812,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/Users/reyescuesta/Documents/GitHubSami/e2e-playwright/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I press Plata o Plomo Deluxe",
+            "match": {
+              "location": "src/steps/game_page.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I press PLAY NOW",
+            "match": {
+              "location": "src/steps/game_page.ts:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see \"Are you over 18?This game requires you to be 18 years or older to playYesNo\"",
+            "match": {
+              "location": "src/steps/game_page.ts:20"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I press \"NO\"",
+            "match": {
+              "location": "src/steps/game_page.ts:24"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1023726311
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "game",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Game",
+    "tags": [],
+    "uri": "src/features/game_page.feature"
   }
 ]

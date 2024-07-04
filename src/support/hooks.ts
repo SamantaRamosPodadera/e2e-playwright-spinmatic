@@ -16,11 +16,11 @@ class CustomWorld extends World {
 }
 
 setWorldConstructor(CustomWorld);
-setDefaultTimeout(20000);
+setDefaultTimeout(5000);
 
 Before(async function() {
   // Launch browser in headless mode
-  browser = await chromium.launch({ headless: false , args:['--start-maximized'] });
+  browser = await chromium.launch({ headless: true , args:['--start-maximized'] });
 
   // Define viewport size based on the environment variable VIEWPORT
   let device = {};
