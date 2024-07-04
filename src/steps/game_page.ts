@@ -25,3 +25,7 @@ Then('I press "NO"', async function() {
     await this.page.getByRole('button', { name: 'No', exact: true }).click();
 })
 
+Then('I should see the title Plata o Plomo Deluxe', async function()  {
+  await expect(this.page.locator('h1')).toContainText('Plata o plomo Deluxe');
+})
+

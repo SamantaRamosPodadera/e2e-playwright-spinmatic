@@ -12,3 +12,4 @@ Feature: Game
     When I press PLAY NOW
     Then I should see "Are you over 18?This game requires you to be 18 years or older to playYesNo"
     Then I press "NO"
+    Then I should see the title Plata o Plomo Deluxe

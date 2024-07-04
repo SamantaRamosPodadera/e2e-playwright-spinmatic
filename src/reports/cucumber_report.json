@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2276204446
+              "duration": 759866615
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2026178644
+              "duration": 1918038682
             }
           },
           {
@@ -39,9 +39,8 @@
               "location": "src/steps/contact _page_step.ts:9"
             },
             "result": {
-              "status": "failed",
-              "duration": 5003299643,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/Users/reyescuesta/Documents/GitHubSami/e2e-playwright/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+              "status": "passed",
+              "duration": 1744977279
             }
           },
           {
@@ -53,8 +52,8 @@
               "location": "src/steps/contact _page_step.ts:18"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 796147482
             }
           },
           {
@@ -66,8 +65,8 @@
               "location": "src/steps/contact _page_step.ts:13"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 69273685
             }
           },
           {
@@ -79,8 +78,8 @@
               "location": "src/steps/contact _page_step.ts:23"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 426758501
             }
           },
           {
@@ -92,8 +91,8 @@
               "location": "src/steps/contact _page_step.ts:27"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 66201853
             }
           },
           {
@@ -101,7 +100,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 994333383
+              "duration": 1801816596
             }
           }
         ],
@@ -120,7 +119,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2074235541
+              "duration": 890024322
             }
           },
           {
@@ -133,7 +132,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2025528150
+              "duration": 1851244537
             }
           },
           {
@@ -145,9 +144,8 @@
               "location": "src/steps/contact _page_step.ts:9"
             },
             "result": {
-              "status": "failed",
-              "duration": 5040541917,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/Users/reyescuesta/Documents/GitHubSami/e2e-playwright/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+              "status": "passed",
+              "duration": 1571785072
             }
           },
           {
@@ -159,8 +157,8 @@
               "location": "src/steps/contact _page_step.ts:18"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 960120199
             }
           },
           {
@@ -172,8 +170,8 @@
               "location": "src/steps/contact _page_step.ts:13"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 472265695
             }
           },
           {
@@ -185,8 +183,8 @@
               "location": "src/steps/contact _page_step.ts:23"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 220897790
             }
           },
           {
@@ -198,8 +196,8 @@
               "location": "src/steps/contact _page_step.ts:32"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 60150128
             }
           },
           {
@@ -207,7 +205,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1063319462
+              "duration": 2115955672
             }
           }
         ],
@@ -237,7 +235,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2092633593
+              "duration": 707560276
             }
           },
           {
@@ -250,7 +248,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1832495736
+              "duration": 1234816842
             }
           },
           {
@@ -262,9 +260,8 @@
               "location": "src/steps/game_page.ts:4"
             },
             "result": {
-              "status": "failed",
-              "duration": 5005868596,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/Users/reyescuesta/Documents/GitHubSami/e2e-playwright/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+              "status": "passed",
+              "duration": 1311134747
             }
           },
           {
@@ -276,8 +273,8 @@
               "location": "src/steps/game_page.ts:8"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 477531332
             }
           },
           {
@@ -285,7 +282,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1335032772
+              "duration": 833217566
             }
           }
         ],
@@ -304,7 +301,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2042667312
+              "duration": 538314803
             }
           },
           {
@@ -317,7 +314,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1947657697
+              "duration": 1905592075
             }
           },
           {
@@ -329,9 +326,8 @@
               "location": "src/steps/game_page.ts:4"
             },
             "result": {
-              "status": "failed",
-              "duration": 5003813812,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/Users/reyescuesta/Documents/GitHubSami/e2e-playwright/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
+              "status": "passed",
+              "duration": 999308806
             }
           },
           {
@@ -343,8 +339,8 @@
               "location": "src/steps/game_page.ts:12"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 889012349
             }
           },
           {
@@ -356,8 +352,8 @@
               "location": "src/steps/game_page.ts:16"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 481517886
             }
           },
           {
@@ -369,8 +365,8 @@
               "location": "src/steps/game_page.ts:20"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 71735121
             }
           },
           {
@@ -382,8 +378,21 @@
               "location": "src/steps/game_page.ts:24"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 193440146
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should see the title Plata o Plomo Deluxe",
+            "match": {
+              "location": "src/steps/game_page.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7856476
             }
           },
           {
@@ -391,7 +400,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1023726311
+              "duration": 430329609
             }
           }
         ],
