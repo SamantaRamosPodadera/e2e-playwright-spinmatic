@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 759866615
+              "duration": 809691170
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1918038682
+              "duration": 1324360823
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1744977279
+              "duration": 1127016798
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 796147482
+              "duration": 1189403195
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 69273685
+              "duration": 495515686
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 426758501
+              "duration": 211159185
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 66201853
+              "duration": 144797606
             }
           },
           {
@@ -100,7 +100,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1801816596
+              "duration": 1545540554
             }
           }
         ],
@@ -119,7 +119,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 890024322
+              "duration": 751799867
             }
           },
           {
@@ -132,7 +132,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1851244537
+              "duration": 1461901186
             }
           },
           {
@@ -145,7 +145,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1571785072
+              "duration": 1784866023
             }
           },
           {
@@ -158,7 +158,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 960120199
+              "duration": 772153393
             }
           },
           {
@@ -171,7 +171,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 472265695
+              "duration": 392316679
             }
           },
           {
@@ -184,7 +184,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 220897790
+              "duration": 170654471
             }
           },
           {
@@ -197,7 +197,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 60150128
+              "duration": 137889042
             }
           },
           {
@@ -205,7 +205,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2115955672
+              "duration": 1637171007
             }
           }
         ],
@@ -235,7 +235,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 707560276
+              "duration": 788011197
             }
           },
           {
@@ -248,7 +248,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1234816842
+              "duration": 1440459268
             }
           },
           {
@@ -261,7 +261,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1311134747
+              "duration": 1270224401
             }
           },
           {
@@ -274,7 +274,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 477531332
+              "duration": 589206270
             }
           },
           {
@@ -282,7 +282,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 833217566
+              "duration": 823772117
             }
           }
         ],
@@ -301,7 +301,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 538314803
+              "duration": 682872939
             }
           },
           {
@@ -314,7 +314,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1905592075
+              "duration": 1697360133
             }
           },
           {
@@ -327,7 +327,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 999308806
+              "duration": 1431413537
             }
           },
           {
@@ -340,7 +340,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 889012349
+              "duration": 873086365
             }
           },
           {
@@ -353,7 +353,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 481517886
+              "duration": 2087077250
             }
           },
           {
@@ -366,7 +366,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 71735121
+              "duration": 21356463
             }
           },
           {
@@ -379,7 +379,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 193440146
+              "duration": 343092000
             }
           },
           {
@@ -392,7 +392,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7856476
+              "duration": 13350543
             }
           },
           {
@@ -400,7 +400,125 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 430329609
+              "duration": 2122915460
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "game;play-game-yes",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "play game yes",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 708279989
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I navigate to spinmatic homepage",
+            "match": {
+              "location": "src/steps/contact _page_step.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 910069580
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I select Game menu",
+            "match": {
+              "location": "src/steps/game_page.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1413470915
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I press Plata o Plomo Deluxe",
+            "match": {
+              "location": "src/steps/game_page.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 568423011
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I press PLAY NOW",
+            "match": {
+              "location": "src/steps/game_page.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 691249557
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I should see \"Are you over 18?This game requires you to be 18 years or older to playYesNo\"",
+            "match": {
+              "location": "src/steps/game_page.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 160354441
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I press \"YES\"",
+            "match": {
+              "location": "src/steps/game_page.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 155023096
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should see the title Plata o Plomo Deluxe",
+            "match": {
+              "location": "src/steps/game_page.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10646325
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 649889372
             }
           }
         ],

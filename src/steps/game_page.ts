@@ -29,3 +29,8 @@ Then('I should see the title Plata o Plomo Deluxe', async function()  {
   await expect(this.page.locator('h1')).toContainText('Plata o plomo Deluxe');
 })
 
+Then('I press "YES"', async function()  {
+  await this.page.getByRole('button', { name: 'Yes', exact: true }).click();
+})
+
+

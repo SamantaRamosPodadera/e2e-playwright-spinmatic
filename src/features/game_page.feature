@@ -13,3 +13,12 @@ Feature: Game
     Then I should see "Are you over 18?This game requires you to be 18 years or older to playYesNo"
     Then I press "NO"
     Then I should see the title Plata o Plomo Deluxe
+
+    Scenario: play game yes
+    Given I navigate to spinmatic homepage
+    When I select Game menu
+    When I press Plata o Plomo Deluxe
+    When I press PLAY NOW
+    Then I should see "Are you over 18?This game requires you to be 18 years or older to playYesNo"
+    Then I press "YES"
+    Then I should see the title Plata o Plomo Deluxe
