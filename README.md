@@ -7,6 +7,8 @@ E2e tests for https://spinmatic.com/
 
 Covered Features:
 - Visit Home Page
+- Contact page
+- Game page
 
 
 - ## 💻 Pre-requisites
