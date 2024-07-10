@@ -20,14 +20,14 @@ setDefaultTimeout(5000);
 
 Before(async function() {
   // Launch browser in headless mode
-  browser = await chromium.launch({ headless: true , args:['--start-maximized'] });
+  browser = await chromium.launch({ headless: true, args: ['--start-maximized'] });
 
   // Define viewport size based on the environment variable VIEWPORT
   let device = {};
   if (process.env.VIEWPORT === 'mobile') {
-    device = devices['iPhone 12'];
+    device = devices['iPhone 11'];
   } else {
-    device = devices['Desktop Chrome'];
+    device = {};
   }
 
   // Create context with video recording based on the viewport
@@ -48,5 +48,3 @@ After(async function() {
   await this.context.close();
   await browser.close();
 });
-
-
