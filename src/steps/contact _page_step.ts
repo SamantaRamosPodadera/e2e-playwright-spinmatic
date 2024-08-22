@@ -7,6 +7,9 @@ Given('I navigate to spinmatic homepage', async function()  {
   })
 
 Given('I select Contact menu', async function()  {
+  if (process.env.VIEWPORT === 'mobile') {
+    await this.page.click('.hamburger');
+  } 
     await this.page.getByRole('link', { name: 'Contact', exact: true }).click();
 })
 

@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1455673063
+              "duration": 5108495210
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3034670022
+              "duration": 3643047472
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 759042923
+              "duration": 1963226947
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 6,
             "name": "I fill out name with \"\"",
             "match": {
-              "location": "src/steps/contact _page_step.ts:18"
+              "location": "src/steps/contact _page_step.ts:21"
             },
             "result": {
               "status": "passed",
-              "duration": 1359743083
+              "duration": 1787494920
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 7,
             "name": "I fill out email with \"samanta@gmail.com\"",
             "match": {
-              "location": "src/steps/contact _page_step.ts:13"
+              "location": "src/steps/contact _page_step.ts:16"
             },
             "result": {
               "status": "passed",
-              "duration": 492441344
+              "duration": 464491208
             }
           },
           {
@@ -75,11 +75,11 @@
             "line": 8,
             "name": "I press send mensage",
             "match": {
-              "location": "src/steps/contact _page_step.ts:23"
+              "location": "src/steps/contact _page_step.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 802841539
+              "duration": 245397046
             }
           },
           {
@@ -88,11 +88,11 @@
             "line": 9,
             "name": "the input name is mark as invalid",
             "match": {
-              "location": "src/steps/contact _page_step.ts:27"
+              "location": "src/steps/contact _page_step.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 74788588
+              "duration": 74295701
             }
           },
           {
@@ -100,7 +100,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2212774918
+              "duration": 372527092
             }
           }
         ],
@@ -118,8 +118,9 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 1436282578
+              "status": "failed",
+              "duration": 5041573980,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/Users/reyescuesta/Documents/GitHubSami/e2e-playwright/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:573:17)\n    at processTimers (node:internal/timers:514:7)"
             }
           },
           {
@@ -131,8 +132,8 @@
               "location": "src/steps/contact _page_step.ts:5"
             },
             "result": {
-              "status": "passed",
-              "duration": 3886116048
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -144,8 +145,8 @@
               "location": "src/steps/contact _page_step.ts:9"
             },
             "result": {
-              "status": "passed",
-              "duration": 725149644
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -154,11 +155,11 @@
             "line": 14,
             "name": "I fill out name with \"Samanta\"",
             "match": {
-              "location": "src/steps/contact _page_step.ts:18"
+              "location": "src/steps/contact _page_step.ts:21"
             },
             "result": {
-              "status": "passed",
-              "duration": 1291178664
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -167,11 +168,11 @@
             "line": 15,
             "name": "I fill out email with \"FDSghjksASjjjDDDJJK\"",
             "match": {
-              "location": "src/steps/contact _page_step.ts:13"
+              "location": "src/steps/contact _page_step.ts:16"
             },
             "result": {
-              "status": "passed",
-              "duration": 622828892
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -180,11 +181,11 @@
             "line": 16,
             "name": "I press send mensage",
             "match": {
-              "location": "src/steps/contact _page_step.ts:23"
+              "location": "src/steps/contact _page_step.ts:26"
             },
             "result": {
-              "status": "passed",
-              "duration": 252759516
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -193,19 +194,20 @@
             "line": 17,
             "name": "the input email is mark as invalid",
             "match": {
-              "location": "src/steps/contact _page_step.ts:32"
+              "location": "src/steps/contact _page_step.ts:35"
             },
             "result": {
-              "status": "passed",
-              "duration": 150267024
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 2010421377
+              "status": "failed",
+              "duration": 15491803,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'close')\n    at CustomWorld.<anonymous> (/Users/reyescuesta/Documents/GitHubSami/e2e-playwright/src/support/hooks.ts:47:19)"
             }
           }
         ],
@@ -235,7 +237,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 557789230
+              "duration": 1985456793
             }
           },
           {
@@ -248,7 +250,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1540168921
+              "duration": 2692740974
             }
           },
           {
@@ -261,7 +263,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1193711655
+              "duration": 2119161922
             }
           },
           {
@@ -270,11 +272,11 @@
             "line": 6,
             "name": "I should see the title Game",
             "match": {
-              "location": "src/steps/game_page.ts:8"
+              "location": "src/steps/game_page.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 739405006
+              "duration": 716855274
             }
           },
           {
@@ -282,7 +284,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1098501361
+              "duration": 458298018
             }
           }
         ],
@@ -301,7 +303,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 629342517
+              "duration": 2009613811
             }
           },
           {
@@ -314,7 +316,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1672327154
+              "duration": 2445585215
             }
           },
           {
@@ -327,7 +329,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1433125047
+              "duration": 1867654695
             }
           },
           {
@@ -336,11 +338,11 @@
             "line": 11,
             "name": "I press Plata o Plomo Deluxe",
             "match": {
-              "location": "src/steps/game_page.ts:12"
+              "location": "src/steps/game_page.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 1162455123
+              "duration": 1398858101
             }
           },
           {
@@ -349,11 +351,11 @@
             "line": 12,
             "name": "I press PLAY NOW",
             "match": {
-              "location": "src/steps/game_page.ts:16"
+              "location": "src/steps/game_page.ts:19"
             },
             "result": {
               "status": "passed",
-              "duration": 1555383959
+              "duration": 2278341911
             }
           },
           {
@@ -362,11 +364,11 @@
             "line": 13,
             "name": "I should see \"Are you over 18?This game requires you to be 18 years or older to playYesNo\"",
             "match": {
-              "location": "src/steps/game_page.ts:20"
+              "location": "src/steps/game_page.ts:23"
             },
             "result": {
               "status": "passed",
-              "duration": 102751807
+              "duration": 149519292
             }
           },
           {
@@ -375,11 +377,11 @@
             "line": 14,
             "name": "I press \"NO\"",
             "match": {
-              "location": "src/steps/game_page.ts:24"
+              "location": "src/steps/game_page.ts:27"
             },
             "result": {
               "status": "passed",
-              "duration": 117048033
+              "duration": 87359055
             }
           },
           {
@@ -388,11 +390,11 @@
             "line": 15,
             "name": "I should see the title Plata o Plomo Deluxe",
             "match": {
-              "location": "src/steps/game_page.ts:28"
+              "location": "src/steps/game_page.ts:31"
             },
             "result": {
               "status": "passed",
-              "duration": 76159569
+              "duration": 53986242
             }
           },
           {
@@ -400,7 +402,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1541036141
+              "duration": 344808354
             }
           }
         ],
@@ -419,7 +421,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 648381835
+              "duration": 1717383707
             }
           },
           {
@@ -432,7 +434,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1792624119
+              "duration": 2324798363
             }
           },
           {
@@ -445,7 +447,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 438097499
+              "duration": 2261012800
             }
           },
           {
@@ -454,11 +456,11 @@
             "line": 20,
             "name": "I press Plata o Plomo Deluxe",
             "match": {
-              "location": "src/steps/game_page.ts:12"
+              "location": "src/steps/game_page.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 1592715142
+              "duration": 2078903556
             }
           },
           {
@@ -467,11 +469,11 @@
             "line": 21,
             "name": "I press PLAY NOW",
             "match": {
-              "location": "src/steps/game_page.ts:16"
+              "location": "src/steps/game_page.ts:19"
             },
             "result": {
               "status": "passed",
-              "duration": 1537513466
+              "duration": 1780520928
             }
           },
           {
@@ -480,11 +482,11 @@
             "line": 22,
             "name": "I should see \"Are you over 18?This game requires you to be 18 years or older to playYesNo\"",
             "match": {
-              "location": "src/steps/game_page.ts:20"
+              "location": "src/steps/game_page.ts:23"
             },
             "result": {
               "status": "passed",
-              "duration": 64843770
+              "duration": 45215231
             }
           },
           {
@@ -493,11 +495,11 @@
             "line": 23,
             "name": "I press \"YES\"",
             "match": {
-              "location": "src/steps/game_page.ts:32"
+              "location": "src/steps/game_page.ts:35"
             },
             "result": {
               "status": "passed",
-              "duration": 151851879
+              "duration": 247517658
             }
           },
           {
@@ -506,11 +508,11 @@
             "line": 24,
             "name": "I should see the title Plata o Plomo Deluxe",
             "match": {
-              "location": "src/steps/game_page.ts:28"
+              "location": "src/steps/game_page.ts:31"
             },
             "result": {
               "status": "passed",
-              "duration": 58618771
+              "duration": 53084597
             }
           },
           {
@@ -518,7 +520,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 320384190
+              "duration": 177494167
             }
           }
         ],

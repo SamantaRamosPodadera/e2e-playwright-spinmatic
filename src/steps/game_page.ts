@@ -2,6 +2,9 @@ import { When,Then,Given } from "@cucumber/cucumber";
 import { expect } from "playwright/test";
 
 When('I select Game menu', async function()  {
+  if (process.env.VIEWPORT === 'mobile') {
+    await this.page.click('.hamburger');
+  } 
     await this.page.getByRole('link', { name: 'Games', exact: true }).click();
   })
 
